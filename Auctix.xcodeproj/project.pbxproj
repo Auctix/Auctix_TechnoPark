@@ -7,20 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2051682827231653007DDBC9 /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2051682627231653007DDBC9 /* Nunito-Black.ttf */; };
+		2051682927231653007DDBC9 /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2051682627231653007DDBC9 /* Nunito-Black.ttf */; };
+		2051682A27231653007DDBC9 /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2051682627231653007DDBC9 /* Nunito-Black.ttf */; };
+		2051682B27231653007DDBC9 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2051682727231653007DDBC9 /* Nunito-Regular.ttf */; };
+		2051682C27231653007DDBC9 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2051682727231653007DDBC9 /* Nunito-Regular.ttf */; };
+		2051682D27231653007DDBC9 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2051682727231653007DDBC9 /* Nunito-Regular.ttf */; };
+		209AA7512722075A00A8679E /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209AA7502722075A00A8679E /* OnboardingViewController.swift */; };
+		209AA754272207BD00A8679E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209AA753272207BD00A8679E /* SignUpViewController.swift */; };
+		A815AFBB31D961E2AD3FCB3F /* Pods_Auctix_AuctixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 811228FEBB1242D6DD03FA6E /* Pods_Auctix_AuctixUITests.framework */; };
+		F325CC9C78C29540EB4740F0 /* Pods_Auctix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A3800CCCB3506D266D0D4B1 /* Pods_Auctix.framework */; };
 		FC1C80622714B223005185D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1C80612714B223005185D6 /* AppDelegate.swift */; };
 		FC1C80642714B223005185D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1C80632714B223005185D6 /* SceneDelegate.swift */; };
-		FC1C80662714B223005185D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1C80652714B223005185D6 /* ViewController.swift */; };
+		FC1C80662714B223005185D6 /* HomeButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1C80652714B223005185D6 /* HomeButtonViewController.swift */; };
 		FC1C80692714B223005185D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1C80672714B223005185D6 /* Main.storyboard */; };
 		FC1C806B2714B225005185D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1C806A2714B225005185D6 /* Assets.xcassets */; };
 		FC1C806E2714B225005185D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1C806C2714B225005185D6 /* LaunchScreen.storyboard */; };
 		FC1C80792714B225005185D6 /* AuctixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1C80782714B225005185D6 /* AuctixTests.swift */; };
 		FC1C80832714B225005185D6 /* AuctixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1C80822714B225005185D6 /* AuctixUITests.swift */; };
 		FC1C80852714B225005185D6 /* AuctixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1C80842714B225005185D6 /* AuctixUITestsLaunchTests.swift */; };
-		FC5EB4BD271B0B8B000EA4C1 /* LoadingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5EB4BB271B0B8B000EA4C1 /* LoadingScreenViewController.swift */; };
 		FC5EB4C1271B39BE000EA4C1 /* Nunito in Resources */ = {isa = PBXBuildFile; fileRef = FC5EB4C0271B39BD000EA4C1 /* Nunito */; };
 		FC5EB4C5271B5403000EA4C1 /* ExhibitionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5EB4C4271B5403000EA4C1 /* ExhibitionCell.swift */; };
 		FC5EB4C7271B5530000EA4C1 /* Exhibition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5EB4C6271B5530000EA4C1 /* Exhibition.swift */; };
 		FC5EB4C9271B58BB000EA4C1 /* ExhibitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5EB4C8271B58BB000EA4C1 /* ExhibitionManager.swift */; };
+		FC9FF44DD6749C78CAEFAC91 /* Pods_AuctixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5964C09B3744DEA84C3218D5 /* Pods_AuctixTests.framework */; };
 		FCFCE7CB271C128D00A59AA0 /* Ext+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFCE7CA271C128D00A59AA0 /* Ext+UIColor.swift */; };
 		FCFCE7CF271DD02700A59AA0 /* AccountButtonTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFCE7CE271DD02700A59AA0 /* AccountButtonTabViewController.swift */; };
 		FCFCE7D3271DD9E700A59AA0 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFCE7D2271DD9E700A59AA0 /* TabBarViewController.swift */; };
@@ -47,10 +57,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06394F73BD0B3919FD63BF60 /* Pods-Auctix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auctix.release.xcconfig"; path = "Target Support Files/Pods-Auctix/Pods-Auctix.release.xcconfig"; sourceTree = "<group>"; };
+		2051682627231653007DDBC9 /* Nunito-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Black.ttf"; sourceTree = "<group>"; };
+		2051682727231653007DDBC9 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		209AA7502722075A00A8679E /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		209AA753272207BD00A8679E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		35CB6FE1ECBC52E97EF77782 /* Pods-AuctixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuctixTests.debug.xcconfig"; path = "Target Support Files/Pods-AuctixTests/Pods-AuctixTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5964C09B3744DEA84C3218D5 /* Pods_AuctixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuctixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		811228FEBB1242D6DD03FA6E /* Pods_Auctix_AuctixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Auctix_AuctixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3800CCCB3506D266D0D4B1 /* Pods_Auctix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Auctix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DA9930CBFBC8C9F2B908A7 /* Pods-Auctix-AuctixUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auctix-AuctixUITests.debug.xcconfig"; path = "Target Support Files/Pods-Auctix-AuctixUITests/Pods-Auctix-AuctixUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC21AB821C834DE1F2279FF8 /* Pods-Auctix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auctix.debug.xcconfig"; path = "Target Support Files/Pods-Auctix/Pods-Auctix.debug.xcconfig"; sourceTree = "<group>"; };
+		E2521AF89B66C1DDAC9E93C8 /* Pods-AuctixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuctixTests.release.xcconfig"; path = "Target Support Files/Pods-AuctixTests/Pods-AuctixTests.release.xcconfig"; sourceTree = "<group>"; };
+		F083D576F58C7E1C41323EEB /* Pods-Auctix-AuctixUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auctix-AuctixUITests.release.xcconfig"; path = "Target Support Files/Pods-Auctix-AuctixUITests/Pods-Auctix-AuctixUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FC1C805E2714B223005185D6 /* Auctix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Auctix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1C80612714B223005185D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC1C80632714B223005185D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FC1C80652714B223005185D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC1C80652714B223005185D6 /* HomeButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButtonViewController.swift; sourceTree = "<group>"; };
 		FC1C80682714B223005185D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC1C806A2714B225005185D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC1C806D2714B225005185D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,7 +83,6 @@
 		FC1C807E2714B225005185D6 /* AuctixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuctixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1C80822714B225005185D6 /* AuctixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctixUITests.swift; sourceTree = "<group>"; };
 		FC1C80842714B225005185D6 /* AuctixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctixUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		FC5EB4BB271B0B8B000EA4C1 /* LoadingScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreenViewController.swift; sourceTree = "<group>"; };
 		FC5EB4C0271B39BD000EA4C1 /* Nunito */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Nunito; path = ../../../../Downloads/Nunito; sourceTree = "<group>"; };
 		FC5EB4C4271B5403000EA4C1 /* ExhibitionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhibitionCell.swift; sourceTree = "<group>"; };
 		FC5EB4C6271B5530000EA4C1 /* Exhibition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exhibition.swift; sourceTree = "<group>"; };
@@ -78,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F325CC9C78C29540EB4740F0 /* Pods_Auctix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC9FF44DD6749C78CAEFAC91 /* Pods_AuctixTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,12 +116,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A815AFBB31D961E2AD3FCB3F /* Pods_Auctix_AuctixUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7AF825A8825371EC2233D33F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A3800CCCB3506D266D0D4B1 /* Pods_Auctix.framework */,
+				811228FEBB1242D6DD03FA6E /* Pods_Auctix_AuctixUITests.framework */,
+				5964C09B3744DEA84C3218D5 /* Pods_AuctixTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9B30C6ECB7EF3069369B530 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC21AB821C834DE1F2279FF8 /* Pods-Auctix.debug.xcconfig */,
+				06394F73BD0B3919FD63BF60 /* Pods-Auctix.release.xcconfig */,
+				B5DA9930CBFBC8C9F2B908A7 /* Pods-Auctix-AuctixUITests.debug.xcconfig */,
+				F083D576F58C7E1C41323EEB /* Pods-Auctix-AuctixUITests.release.xcconfig */,
+				35CB6FE1ECBC52E97EF77782 /* Pods-AuctixTests.debug.xcconfig */,
+				E2521AF89B66C1DDAC9E93C8 /* Pods-AuctixTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FC1C80552714B223005185D6 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +153,8 @@
 				FC1C80772714B225005185D6 /* AuctixTests */,
 				FC1C80812714B225005185D6 /* AuctixUITests */,
 				FC1C805F2714B223005185D6 /* Products */,
+				A9B30C6ECB7EF3069369B530 /* Pods */,
+				7AF825A8825371EC2233D33F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,19 +176,20 @@
 				FC1C80632714B223005185D6 /* SceneDelegate.swift */,
 				FCFCE7D2271DD9E700A59AA0 /* TabBarViewController.swift */,
 				FCFCE7D4271DE3EC00A59AA0 /* TabBarVC.swift */,
-				FC1C80652714B223005185D6 /* ViewController.swift */,
+				FC1C80652714B223005185D6 /* HomeButtonViewController.swift */,
+				FCFCE7D8271EB94300A59AA0 /* ListButtonViewController.swift */,
 				FCFCE7DA271EB9DC00A59AA0 /* BidButtonTabViewController.swift */,
 				FCFCE7CE271DD02700A59AA0 /* AccountButtonTabViewController.swift */,
-				FCFCE7D8271EB94300A59AA0 /* ListButtonViewController.swift */,
 				FC1C80672714B223005185D6 /* Main.storyboard */,
 				FC1C806A2714B225005185D6 /* Assets.xcassets */,
 				FC1C806C2714B225005185D6 /* LaunchScreen.storyboard */,
-				FC5EB4BB271B0B8B000EA4C1 /* LoadingScreenViewController.swift */,
 				FC1C806F2714B225005185D6 /* Info.plist */,
 				FC5EB4C4271B5403000EA4C1 /* ExhibitionCell.swift */,
 				FC5EB4C6271B5530000EA4C1 /* Exhibition.swift */,
 				FC5EB4C8271B58BB000EA4C1 /* ExhibitionManager.swift */,
 				FCFCE7CA271C128D00A59AA0 /* Ext+UIColor.swift */,
+				209AA7502722075A00A8679E /* OnboardingViewController.swift */,
+				209AA753272207BD00A8679E /* SignUpViewController.swift */,
 			);
 			path = Auctix;
 			sourceTree = "<group>";
@@ -163,6 +214,8 @@
 		FC5EB4BF271B395E000EA4C1 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				2051682627231653007DDBC9 /* Nunito-Black.ttf */,
+				2051682727231653007DDBC9 /* Nunito-Regular.ttf */,
 				FC5EB4C0271B39BD000EA4C1 /* Nunito */,
 			);
 			path = Fonts;
@@ -175,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC1C80882714B225005185D6 /* Build configuration list for PBXNativeTarget "Auctix" */;
 			buildPhases = (
+				E0D839C9B402F5E27D360166 /* [CP] Check Pods Manifest.lock */,
 				FC1C805A2714B223005185D6 /* Sources */,
 				FC1C805B2714B223005185D6 /* Frameworks */,
 				FC1C805C2714B223005185D6 /* Resources */,
+				78920770B8B79D865F0E4F60 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC1C808B2714B225005185D6 /* Build configuration list for PBXNativeTarget "AuctixTests" */;
 			buildPhases = (
+				C73C5B61D8C67F66F85656C1 /* [CP] Check Pods Manifest.lock */,
 				FC1C80702714B225005185D6 /* Sources */,
 				FC1C80712714B225005185D6 /* Frameworks */,
 				FC1C80722714B225005185D6 /* Resources */,
@@ -210,9 +266,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC1C808E2714B225005185D6 /* Build configuration list for PBXNativeTarget "AuctixUITests" */;
 			buildPhases = (
+				DF22988C0529DF1F7B896C91 /* [CP] Check Pods Manifest.lock */,
 				FC1C807A2714B225005185D6 /* Sources */,
 				FC1C807B2714B225005185D6 /* Frameworks */,
 				FC1C807C2714B225005185D6 /* Resources */,
+				963042BD21BE2AF0F655A80A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -272,7 +330,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2051682B27231653007DDBC9 /* Nunito-Regular.ttf in Resources */,
 				FC1C806E2714B225005185D6 /* LaunchScreen.storyboard in Resources */,
+				2051682827231653007DDBC9 /* Nunito-Black.ttf in Resources */,
 				FC1C806B2714B225005185D6 /* Assets.xcassets in Resources */,
 				FC1C80692714B223005185D6 /* Main.storyboard in Resources */,
 				FC5EB4C1271B39BE000EA4C1 /* Nunito in Resources */,
@@ -283,6 +343,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2051682C27231653007DDBC9 /* Nunito-Regular.ttf in Resources */,
+				2051682927231653007DDBC9 /* Nunito-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,10 +352,115 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2051682D27231653007DDBC9 /* Nunito-Regular.ttf in Resources */,
+				2051682A27231653007DDBC9 /* Nunito-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78920770B8B79D865F0E4F60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Auctix/Pods-Auctix-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Auctix/Pods-Auctix-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Auctix/Pods-Auctix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		963042BD21BE2AF0F655A80A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Auctix-AuctixUITests/Pods-Auctix-AuctixUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Auctix-AuctixUITests/Pods-Auctix-AuctixUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Auctix-AuctixUITests/Pods-Auctix-AuctixUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C73C5B61D8C67F66F85656C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AuctixTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF22988C0529DF1F7B896C91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Auctix-AuctixUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0D839C9B402F5E27D360166 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Auctix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FC1C805A2714B223005185D6 /* Sources */ = {
@@ -301,7 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCFCE7CF271DD02700A59AA0 /* AccountButtonTabViewController.swift in Sources */,
-				FC1C80662714B223005185D6 /* ViewController.swift in Sources */,
+				FC1C80662714B223005185D6 /* HomeButtonViewController.swift in Sources */,
 				FCFCE7D9271EB94300A59AA0 /* ListButtonViewController.swift in Sources */,
 				FCFCE7D3271DD9E700A59AA0 /* TabBarViewController.swift in Sources */,
 				FC5EB4C5271B5403000EA4C1 /* ExhibitionCell.swift in Sources */,
@@ -309,10 +476,11 @@
 				FC5EB4C9271B58BB000EA4C1 /* ExhibitionManager.swift in Sources */,
 				FC1C80622714B223005185D6 /* AppDelegate.swift in Sources */,
 				FCFCE7CB271C128D00A59AA0 /* Ext+UIColor.swift in Sources */,
+				209AA754272207BD00A8679E /* SignUpViewController.swift in Sources */,
 				FC1C80642714B223005185D6 /* SceneDelegate.swift in Sources */,
 				FCFCE7D5271DE3EC00A59AA0 /* TabBarVC.swift in Sources */,
+				209AA7512722075A00A8679E /* OnboardingViewController.swift in Sources */,
 				FCFCE7DB271EB9DC00A59AA0 /* BidButtonTabViewController.swift in Sources */,
-				FC5EB4BD271B0B8B000EA4C1 /* LoadingScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,11 +654,13 @@
 		};
 		FC1C80892714B225005185D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC21AB821C834DE1F2279FF8 /* Pods-Auctix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HPFL4V5BSY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Auctix/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -507,17 +677,19 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FC1C808A2714B225005185D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06394F73BD0B3919FD63BF60 /* Pods-Auctix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HPFL4V5BSY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Auctix/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -534,12 +706,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		FC1C808C2714B225005185D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35CB6FE1ECBC52E97EF77782 /* Pods-AuctixTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -564,6 +737,7 @@
 		};
 		FC1C808D2714B225005185D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2521AF89B66C1DDAC9E93C8 /* Pods-AuctixTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -588,6 +762,7 @@
 		};
 		FC1C808F2714B225005185D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5DA9930CBFBC8C9F2B908A7 /* Pods-Auctix-AuctixUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -610,6 +785,7 @@
 		};
 		FC1C80902714B225005185D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F083D576F58C7E1C41323EEB /* Pods-Auctix-AuctixUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

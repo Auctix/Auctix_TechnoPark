@@ -6,6 +6,7 @@
 	<array>
 		<string>Nunito-Regular.ttf</string>
 		<string>Nunito-Light.ttf</string>
+		<string>Nunito-Black.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>

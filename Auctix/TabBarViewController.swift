@@ -14,9 +14,9 @@ class TabBarViewController: UITabBarController, UITabBarControllerDelegate {
     private let homeView = HomeButtonTabViewController()
     private let accView = AccountButtonTabViewController()
     private let bidView = BidButtonTabViewController()
-    required init?(coder: NSCoder) {
-        super .init(coder: coder)
-    }
+//    required init?(coder: NSCoder) {
+//        super .init(coder: coder)
+//    }
     
     //let navigationBar = UITabBar()
     override func viewDidLoad() {

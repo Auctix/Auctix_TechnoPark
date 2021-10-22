@@ -11,11 +11,19 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
    
-  //  var window: UIWindow?
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        Thread.sleep(forTimeInterval: 1.0)
+//        let window = UIWindow(frame: UIScreen.main.bounds)
+//        if UserDefaults.standard.bool(forKey: "isFirstStart") {
+//            window.rootViewController = HomeButtonTabViewController()
+//        } else {
+//            window.rootViewController = OnboardingViewController()
+//            UserDefaults.standard.set(true, forKey: "isFirstStart")
+//            print("232")
+//        }
+//        window.makeKeyAndVisible()
+//        self.window = window
 
         return true
     }
