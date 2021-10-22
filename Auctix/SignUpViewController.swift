@@ -18,14 +18,20 @@ class SignUpViewController: UIViewController {
         setupLabel()
     }
     
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        setupLayout()
+    }
 
-    func setupLabel() {
+    private func setupLabel() {
         label.text = "Hi"
         view.addSubview(label)
+    }
+   
+    private func setupLayout(){
         label.snp.makeConstraints { make in
             make.center.equalToSuperview()
         }
     }
-   
 
 }
