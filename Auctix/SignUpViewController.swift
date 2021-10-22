@@ -16,7 +16,6 @@ class SignUpViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .yellow
         setupLabel()
-        // Do any additional setup after loading the view.
     }
     
 

@@ -14,11 +14,7 @@ class TabBarViewController: UITabBarController, UITabBarControllerDelegate {
     private let homeView = HomeButtonTabViewController()
     private let accView = AccountButtonTabViewController()
     private let bidView = BidButtonTabViewController()
-//    required init?(coder: NSCoder) {
-//        super .init(coder: coder)
-//    }
-    
-    //let navigationBar = UITabBar()
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setViewControllers([homeView, listView, bidView, accView], animated: true)
@@ -28,8 +24,6 @@ class TabBarViewController: UITabBarController, UITabBarControllerDelegate {
         self.selectedIndex = 5
        
         setupMiddleButton()
-
-        
         
     }
     

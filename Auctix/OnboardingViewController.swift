@@ -49,7 +49,6 @@ class OnboardingViewController: UIViewController {
         view.addSubview(buttonSignUp)
         buttonSignUp.snp.makeConstraints { maker in
             maker.centerX.equalToSuperview()
-           // maker.leading.trailing.equalToSuperview().inset(90)
             maker.bottom.equalTo(buttonContinue).inset(30)
             maker.height.equalTo(40)
             maker.width.equalTo(150)
