@@ -6,14 +6,21 @@
 //
 
 import UIKit
+import Firebase
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+   
+  //  var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //Thread.sleep(forTimeInterval: 1.0)
+        FirebaseApp.configure()
+     
+//        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.lightCornflowerBlue], for: .normal)
+        
         return true
     }
 
